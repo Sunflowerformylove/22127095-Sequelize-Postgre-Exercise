@@ -10,7 +10,8 @@
 				"require": true,
 				"rejectUnauthorized": false
 			}
-		}
+		},
+		"logging": false
 	},
 	"test": {
 		"username": "student",
@@ -23,7 +24,8 @@
 				"require": true,
 				"rejectUnauthorized": false
 			}
-		}
+		},
+		"logging": false
 	},
 	"production": {
 		"username": "student",
@@ -36,6 +38,7 @@
 				"require": true,
 				"rejectUnauthorized": false
 			}
-		}
+		},
+		"logging": false
 	}
 }
