@@ -11,5 +11,31 @@
 				"rejectUnauthorized": false
 			}
 		}
+	},
+	"test": {
+		"username": "student",
+		"password": "ptudw@123",
+		"database": "sequelize_exercise_foxh",
+		"host": "dpg-csvb7laj1k6c73c3jk20-a.singapore-postgres.render.com",
+		"dialect": "postgres",
+		"dialectOptions": {
+			"ssl": {
+				"require": true,
+				"rejectUnauthorized": false
+			}
+		}
+	},
+	"production": {
+		"username": "student",
+		"password": "ptudw@123",
+		"database": "sequelize_exercise_foxh",
+		"host": "dpg-csvb7laj1k6c73c3jk20-a.singapore-postgres.render.com",
+		"dialect": "postgres",
+		"dialectOptions": {
+			"ssl": {
+				"require": true,
+				"rejectUnauthorized": false
+			}
+		}
 	}
 }
